@@ -6,18 +6,18 @@
 /*   By: mghazari <maximeghazarian1@gmail.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/02 16:33:21 by mghazari          #+#    #+#             */
-/*   Updated: 2020/06/02 17:02:05 by mghazari         ###   ########.fr       */
+/*   Updated: 2020/10/24 14:20:44 by mghazari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void ft_putchar(char c);
+void	ft_putchar(char c);
 
-void ft_putstr(char *str)
+void	ft_putstr(char *str)
 {
-	int i;
+	int	i;
 
 	i = -1;
-	while (str[++i] != '\0')
+	while (str[++i])
 		ft_putchar(str[i]);
 }
 

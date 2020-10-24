@@ -6,11 +6,11 @@
 /*   By: mghazari <maximeghazarian1@gmail.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/26 11:24:40 by mghazari          #+#    #+#             */
-/*   Updated: 2020/06/26 11:32:22 by mghazari         ###   ########.fr       */
+/*   Updated: 2020/10/24 14:39:34 by mghazari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_recursive_power(int nb, int power)
+int	ft_recursive_power(int nb, int power)
 {
 	if (power < 0)
 		return (0);

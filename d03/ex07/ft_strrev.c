@@ -6,17 +6,19 @@
 /*   By: mghazari <maximeghazarian1@gmail.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/02 18:29:12 by mghazari          #+#    #+#             */
-/*   Updated: 2020/06/03 22:59:47 by mghazari         ###   ########.fr       */
+/*   Updated: 2020/10/24 14:25:26 by mghazari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 char	*ft_strrev(char *str)
 {
-	int len, i;
-	char swap;
+	int	len;
+	int	i;
+	char	swap;
 
 	len = -1;
-	while (str[++len] != '\0');
+	while (str[++len])
+		continue;
 	if (len < 2)
 		return (str);
 	i = -1;
@@ -28,4 +30,3 @@ char	*ft_strrev(char *str)
 	}
 	return (str);
 }
-

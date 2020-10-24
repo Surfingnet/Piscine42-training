@@ -6,7 +6,7 @@
 /*   By: mghazari <maximeghazarian1@gmail.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/20 08:40:41 by mghazari          #+#    #+#             */
-/*   Updated: 2020/10/20 10:14:38 by mghazari         ###   ########.fr       */
+/*   Updated: 2020/10/24 14:54:55 by mghazari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,8 @@ int	ft_putchar(char c);
 
 void	ft_putnbr(int nb)
 {
-	int	tmp, size;
+	int	tmp;
+	int	size;
 
 	size = 1;
 	if (nb > 2147483647 || nb < -2147483648)
@@ -34,5 +35,4 @@ void	ft_putnbr(int nb)
 		tmp %= size;
 		size /= 10;
 	}
-
 }

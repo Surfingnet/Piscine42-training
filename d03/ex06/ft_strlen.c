@@ -6,15 +6,16 @@
 /*   By: mghazari <maximeghazarian1@gmail.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/02 16:49:20 by mghazari          #+#    #+#             */
-/*   Updated: 2020/06/02 16:58:29 by mghazari         ###   ########.fr       */
+/*   Updated: 2020/10/24 14:21:50 by mghazari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_strlen(char *str)
+int	ft_strlen(char *str)
 {
-	int len;
+	int	len;
 
 	len = -1;
-	while (str[++len] != '\0');
+	while (str[++len])
+		continue;
 	return (len);
 }

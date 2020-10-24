@@ -6,13 +6,13 @@
 /*   By: mghazari <maximeghazarian1@gmail.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/02 16:13:25 by mghazari          #+#    #+#             */
-/*   Updated: 2020/06/02 16:29:11 by mghazari         ###   ########.fr       */
+/*   Updated: 2020/10/24 14:18:30 by mghazari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void ft_ultimate_div_mod(int *a, int *b)
+void 	ft_ultimate_div_mod(int *a, int *b)
 {
-	int c;
+	int	c;
 
 	c = *a / *b;
 	*b = *a % *b;
